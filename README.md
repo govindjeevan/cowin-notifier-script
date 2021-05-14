@@ -11,8 +11,10 @@
 6. Add Then That
 7. Notifications
 8. Send Notifications to IFTTT app (Download from PlayStore)
-9. Paste below text in Message field
-   {{EventName}}: {{Value1}} - {{Value2}} - {{Value3}}
+9. Paste below text in Message field:
+
+```{{EventName}}: {{Value1}} - {{Value2}} - {{Value3}}```
+
 10. Create Action
 11. Continue
 12. Finish
@@ -34,9 +36,10 @@ Won't provide walkthrough, but entirely doable with some googling
 https://dev.to/tharindadilshan/running-a-python-script-every-x-minutes-in-windows-10-3nm9
 
 ### Linux
-1. crontab -e
+1. ```crontab -e```
 2. Paste below command in the file that opens ( 5 => Ping cowin every 5 minute, change to desired interval )
-  */1 * * * * /home/pi/vaccine_slots.py
+  
+   ```*/1 * * * * /home/pi/vaccine_slots.py```
 
 
 A python script to notify you via IFTTT app whenever a slot becomes available at https://www.cowin.gov.in/
