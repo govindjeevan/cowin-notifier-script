@@ -54,7 +54,7 @@ def fetch_slots():
                 for center in response.json()['centers']:
                     for session in center['sessions']:
                         #write_csv("logs_vaccine.txt", str(center['name']) +" " + str(session['available_capacity']))
-                        if str(session['date']) == day:
+                        if str(session['date']) == day and session['available_capacity'] > 0:
                             csv_row = ",".join([str(timestamp), str(center['center_id']), str(center['name']), str(session['date']), str(session['min_age_limit']), str(session['vaccine']), str(session['available_capacity'])])
                             ifttt_alert(session['vaccine'], session['available_capacity'], str(session['date']), str(center['name']))
                             write_csv("slot_data.csv", csv_row)
