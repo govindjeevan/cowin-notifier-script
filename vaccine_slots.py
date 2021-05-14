@@ -9,7 +9,6 @@ headers = {
     'cache-control': 'no-cache',
     'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',
     'accept': 'application/json, text/plain, */*',
-    'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiI1ODI0MjNmMi04OTM1LTQ1NDctYjU4Yi1hNDRkNjQxMWU5Y2EiLCJ1c2VyX2lkIjoiNTgyNDIzZjItODkzNS00NTQ3LWI1OGItYTQ0ZDY0MTFlOWNhIiwidXNlcl90eXBlIjoiQkVORUZJQ0lBUlkiLCJtb2JpbGVfbnVtYmVyIjo5NDk1NTkxMDY4LCJiZW5lZmljaWFyeV9yZWZlcmVuY2VfaWQiOjYzNjYyNTE0OTIxMzgwLCJzZWNyZXRfa2V5IjoiYjVjYWIxNjctNzk3Ny00ZGYxLTgwMjctYTYzYWExNDRmMDRlIiwidWEiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTAuMC40NDMwLjkzIFNhZmFyaS81MzcuMzYiLCJkYXRlX21vZGlmaWVkIjoiMjAyMS0wNS0xM1QxMzozODoyNy43MTlaIiwiaWF0IjoxNjIwOTEzMTA3LCJleHAiOjE2MjA5MTQwMDd9.41K0gSNB6sttuIw63c27SWVz-3pcorEli-uP1aMwNhw',
     'sec-ch-ua-mobile': '?0',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36',
     'origin': 'https://selfregistration.cowin.gov.in',
