@@ -21,6 +21,11 @@
 15. Copy the API_KEY section from the URL
 16. Set IFTTT_KEY with API_KEY value in vaccine_slots.py script
 
+## District ID
+The script queries district wise hospitals.
+1. Find State ID: https://cdn-api.co-vin.in/api/v2/admin/location/states
+2. Find District ID: https://cdn-api.co-vin.in/api/v2/admin/location/districts/<State ID from step 1>
+3. Set District ID in vaccine_slots.py
 
 ## Running the script repeatedly
 
