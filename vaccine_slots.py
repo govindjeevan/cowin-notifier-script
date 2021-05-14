@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+IFTTT_KEY = ""
+DISTRICT_ID = ""
+
 headers = {
     'authority': 'cdn-api.co-vin.in',
     'pragma': 'no-cache',
@@ -18,7 +21,7 @@ headers = {
 }
 
 
-IFTTT_KEY = ""
+
 
 import datetime
 import requests
@@ -45,7 +48,7 @@ def fetch_slots():
     write_csv("logs_vaccine.txt", timestamp)
     dates = [(date.today() + timedelta(days=i)).strftime("%d-%m-%Y") for i in range(5)]
     for day in dates:
-        params = ( ('district_id', '307'), ('date', dates[0]) )
+        params = ( ('district_id', DISTRICT_ID), ('date', dates[0]) )
         response = requests.get('https://cdn-api.co-vin.in/api/v2/appointment/sessions/calendarByDistrict', headers=headers, params=params)
         if response.ok:
             if len(response.json()['centers']) > 0:
