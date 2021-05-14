@@ -40,7 +40,7 @@ https://dev.to/tharindadilshan/running-a-python-script-every-x-minutes-in-window
 1. ```crontab -e```
 2. Paste below command in the file that opens ( 5 => Ping cowin every 5 minute, change to desired interval )
   
-   ```*/5 * * * * /home/pi/vaccine_slots.py```
+   ```*/5 * * * * /<path to script>/vaccine_slots.py```
 
 
 A python script to notify you via IFTTT app whenever a slot becomes available at https://www.cowin.gov.in/
