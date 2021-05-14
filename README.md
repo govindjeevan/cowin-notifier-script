@@ -26,7 +26,8 @@
 ## District ID
 The script queries district wise hospitals.
 1. Find State ID: https://cdn-api.co-vin.in/api/v2/admin/location/states
-2. Find District ID using State ID: https://cdn-api.co-vin.in/api/v2/admin/location/districts/State_ID
+2. Find District ID using State ID: https://cdn-api.co-vin.in/api/v2/admin/location/districts/<State_ID>
+( if you get unauthorized access above, check if State ID is set in the URL )
 3. Set District ID in vaccine_slots.py
 
 ## Running the script repeatedly
