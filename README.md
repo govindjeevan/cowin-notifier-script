@@ -1,4 +1,5 @@
-# COWIN VACCINE AVAILABILITY NOTIFICATION - Self Host
+# COWIN VACCINE AVAILABILITY NOTIFICATION
+### Self host your own vaccine slot checker
 
 ## Setting up IFTTT Notifications
 
