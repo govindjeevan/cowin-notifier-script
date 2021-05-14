@@ -47,7 +47,7 @@ def fetch_slots():
     write_csv("logs_vaccine.txt", timestamp)
     dates = [(date.today() + timedelta(days=i)).strftime("%d-%m-%Y") for i in range(5)]
     for day in dates:
-        params = ( ('district_id', DISTRICT_ID), ('date', dates[0]) )
+        params = ( ('district_id', DISTRICT_ID), ('date', day) )
         response = requests.get('https://cdn-api.co-vin.in/api/v2/appointment/sessions/calendarByDistrict', headers=headers, params=params)
         if response.ok:
             if len(response.json()['centers']) > 0:
