@@ -19,7 +19,7 @@
 11. Continue
 12. Finish
 13. Go here https://ifttt.com/maker_webhooks/settings
-14. Find a URL: https://maker.ifttt.com/use/{API_KEY}
+14. Find a URL that looks like: https://maker.ifttt.com/use/{API_KEY}
 15. Copy the API_KEY section from the URL
 16. Set IFTTT_KEY with API_KEY value in vaccine_slots.py script
 
